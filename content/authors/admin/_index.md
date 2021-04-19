@@ -13,7 +13,7 @@ education:
     institution: University of Mississippi
     year: 2018
   - course: MA in Clinical Psychology
-    institution: University of Mississipp
+    institution: University of Mississippi
     year: 2013
   - course: BA in Psychology
     institution: University of Washington
