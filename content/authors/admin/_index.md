@@ -1,6 +1,9 @@
 ---
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
+# Display name
+name: A. Solomon Kurz
+
+bio: I am a clinical psychology researcher.
+
 education:
   courses:
   - course: PhD in Artificial Intelligence
