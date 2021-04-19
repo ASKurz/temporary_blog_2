@@ -25,9 +25,13 @@ education:
 email: ""
 highlight_name: false
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Acceptance and Commitment Therapy
+- Meditation
+- Idiographic Analyses
+- Applied Statistics
+- Methodology
+- Science Reform
+    
 organizations:
 - name: Stanford University
   url: https://www.stanford.edu/
