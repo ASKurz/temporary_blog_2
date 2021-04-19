@@ -50,6 +50,10 @@ social:
   icon_pack: ai
   link: https://scholar.google.com/citations?user=P8JWywQAAAAJ&hl
 
+- icon: osf
+  icon_pack: ai
+  link: https://osf.io/2t7j2/
+  
 - icon: github
   icon_pack: fab
   link: https://github.com/ASKurz
