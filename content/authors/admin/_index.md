@@ -41,15 +41,15 @@ social:
 - icon: envelope
   icon_pack: fas
   link: /#contact
-- display:
-    header: true
-  icon: twitter
+
+- icon: twitter
   icon_pack: fab
-  label: Follow me on Twitter
   link: https://twitter.com/SolomonKurz
+
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=P8JWywQAAAAJ&hl
+
 - icon: github
   icon_pack: fab
   link: https://github.com/ASKurz
