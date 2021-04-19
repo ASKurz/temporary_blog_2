@@ -6,15 +6,22 @@ bio: I am a clinical psychology researcher.
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: OAA Advanced Postdoctoral Fellow in Mental Illness Research & Treatment
+    institution: VISN 17 Center of Excellence for Research on Returning War Veterans at Central Texas Veterans Healthcare System
+    year: 2020
+  - course: PhD in Clinical Psychology
+    institution: University of Mississippi
+    year: 2018
+  - course: MA in Clinical Psychology
+    institution: University of Mississipp
+    year: 2013
+  - course: BA in Psychology
+    institution: University of Washington
+    year: 2010
+  - course: Diploma
+    institution: Enumclaw High School
+    year: 1998
+    
 email: ""
 highlight_name: false
 interests:
