@@ -33,7 +33,7 @@ interests:
 - Science Reform
     
 organizations:
-- name: VISN 17 Center of Excellence for Research on Returning War Veterans
+- name: VISN 17 Center of Excellence
   url: https://www.mirecc.va.gov/visn17/
 role: Clinical Research Psychologist
 
