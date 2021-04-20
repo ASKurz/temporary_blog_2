@@ -5,13 +5,13 @@ abstract: 'Introduction: Social distancing and sheltering-in-place mitigate the 
 
 authors:
 - Adam P. McGuire
-- Candice Hayden
-- Sheila B. Frankfurt
+# - Candice Hayden
+# - Sheila B. Frankfurt
 - admin
 # - A. Solomon Kurz
-- Austen R. Anderson
-- Binh An N. Howard
-- Yvette Z. Szabo
+# - Austen R. Anderson
+# - Binh An N. Howard
+# - Yvette Z. Szabo
 
 # - admin
 # - Robert Ford
