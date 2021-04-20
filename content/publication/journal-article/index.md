@@ -7,7 +7,8 @@ authors:
 - Adam P. McGuire
 - Candice Hayden
 - Sheila B. Frankfurt
-- A. Solomon Kurz
+- admin
+# - A. Solomon Kurz
 - Austen R. Anderson
 - Binh An N. Howard
 - Yvette Z. Szabo
