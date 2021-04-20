@@ -1,20 +1,14 @@
 ---
-title: 'Social engagement early in the U.S. COVID-19 crisis: Exploring social support and prosocial behavior between those with and without depression or anxiety in an online sample'
+title: 'Want to see more behavior? Consider institutional-level positive reinforcement'
 
 # for `authors`, if you use `admin` instead of your publicaiton name,
 # the page will include a thumbnail of your pic and basic info,
 # kinda like a mini home page
 authors:
-- Adam P. McGuire
-- Candice Hayden
-- Sheila B. Frankfurt
 - admin
-- Austen R. Anderson
-- Binh An N. Howard
-- Yvette Z. Szabo
 
-date: '2020-12-01'
-doi: https://doi.org/10.1521/jscp.2020.39.10.923
+date: '2019-10-01'
+doi: https://doi.org/10.1016/j.jcbs.2019.08.006
 featured: false
 # To use the `image` argument, add an image named `featured.jpg/png` to your page's folder.
 # focal_point: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
@@ -24,26 +18,22 @@ image:
   preview_only: false
 # `projects` can associate this post with one or more of your projects
 projects: []
-publication: '*Journal of Social and Clinical Psychology*'
+publication: '*Journal of Contextual Behavioral Science*'
 publication_types:
 - 2
-publishDate: '2020-12-01'
+publishDate: '2019-10-01'
 slides: ''
 summary: ''
 # `tags` are like keywords
 tags:
-- COVID-19
-- social engagement
-- social support
-- prosocial behavior
-- anxiety
-- depression
-- mental health
-- pandemic
+- Behavior
+- Positive reinforcement
+- Meta-science
+- Validity
 
 url_code: ""
 url_dataset: ""
-url_pdf: https://guilfordjournals.com/doi/pdf/10.1521/jscp.2020.39.10.923
+url_pdf: "pdf/Kurz (2019) Want to see more behavior.pdf"
 url_poster: ""
 url_project: ""
 url_slides: ""
@@ -52,8 +42,8 @@ url_video: ""
 
 links:
   - name: OSF
-    url: 'https://osf.io/fdywh/'
+    url: 'https://osf.io/3taer/'
     
-abstract: '**Introduction:** Social distancing and sheltering-in-place mitigate the physical health risks of the novel coronavirus (COVID-19); however, there are concerns about the impact on mental health and social engagement. **Methods:** We used data from a U.S.-based online survey (March 2020) to examine patterns of social support and prosocial behavior, explore differences between people with and without depression or anxiety, and explore correlates of social engagement in both groups, including symptom severity in the clinical group. **Results:** The clinical group reported greater social engagement. In both groups, social engagement was positively associated with COVID-19-related worry and trait moral elevation; mindfulness was positively associated with all outcomes for the clinical group only. Social interaction frequency had little influence on outcomes. Depressive symptom severity was positively associated with all outcomes, whereas anxiety was negatively associated with prosocial behavior. **Discussion:** These findings highlight how social engagement was experienced early in the U.S. COVID-19 crisis.'
+abstract: 'In their review of 160 articles in the *Journal of Contextual Behavioral Science* (*JCBS*), Newsome, Newsome, Fuller & Meyer (2019) argued prior *JCBS* authors have disproportionately relied on self-report measures to the neglect of more overt measures of behavior. I agree that increasing the frequency of more overt behavioral measures of behavior could potentially improve the quality of the scholarship within *JCBS*. To encourage these changes, we might consider a fuller analysis of the factors maintaining the status quo, and further discuss the practical ways we might reinforce the behaviors we desire among our fellow scientists. In this commentary, I offer several steps the leadership within *JCBS* and the Association for Contextual Behavioral Science (ACBS) might take to encourage these changes. With skillfully-applied positive reinforcement, we might use our science to improve our science.'
 ---
 
