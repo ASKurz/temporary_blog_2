@@ -37,7 +37,7 @@ tags:
 
 url_code: ""
 url_dataset: ""
-url_pdf: ""
+url_pdf: "pdf/Karekla et al (2020) Cognitive restructuring vs. defusion.pdf"
 url_poster: ""
 url_project: ""
 url_slides: ""
