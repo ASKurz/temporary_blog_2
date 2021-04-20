@@ -1,10 +1,10 @@
 ---
-abstract: Introduction: Social distancing and sheltering-in-place mitigate the physical health risks of the novel coronavirus (COVID-19); however, there are concerns about the impact on mental health and social engagement. Methods: We used data from a U.S.-based online survey (March 2020) to examine patterns of social support and prosocial behavior, explore differences between people with and without depression or anxiety, and explore correlates of social engage- ment in both groups, including symptom severity in the clinical group. Results: The clinical group reported greater social engagement. In both groups, social engagement was positively associated with COVID-19-related worry and trait moral elevation; mindfulness was positively associated with all outcomes for the clinical group only. Social interaction frequency had little influence on out- comes. Depressive symptom severity was positively associated with all out- comes, whereas anxiety was negatively associated with prosocial behavior. Discussion: These findings highlight how social engagement was experienced early in the U.S. COVID-19 crisis.
+abstract: Introduction: Social distancing and sheltering-in-place mitigate the physical health risks of the novel coronavirus (COVID-19); however, there are concerns about the impact on mental health and social engagement. Methods: We used data from a U.S.-based online survey (March 2020) to examine patterns of social support and prosocial behavior, explore differences between people with and without depression or anxiety, and explore correlates of social engagement in both groups, including symptom severity in the clinical group. Results: The clinical group reported greater social engagement. In both groups, social engagement was positively associated with COVID-19-related worry and trait moral elevation; mindfulness was positively associated with all outcomes for the clinical group only. Social interaction frequency had little influence on outcomes. Depressive symptom severity was positively associated with all outcomes, whereas anxiety was negatively associated with prosocial behavior. Discussion: These findings highlight how social engagement was experienced early in the U.S. COVID-19 crisis.
 author_notes:
 - Equal contribution
 - Equal contribution
 authors:
-- Adam McGuire
+- admin
 - Robert Ford
 date: "2015-09-01T00:00:00Z"
 doi: ""
