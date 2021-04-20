@@ -25,9 +25,8 @@ image:
 # `projects` can associate this post with one or more of your projects
 projects: []
 publication: '*Journal of Social and Clinical Psychology*'
-publication_short: ""
 publication_types:
-- "2"
+- 2
 publishDate: '2020-12-01'
 slides: ''
 summary: ''
@@ -41,6 +40,7 @@ tags:
 - depression
 - mental health
 - pandemic
+
 url_code: ""
 url_dataset: ""
 url_pdf: https://guilfordjournals.com/doi/pdf/10.1521/jscp.2020.39.10.923
@@ -54,8 +54,6 @@ links:
   - name: OSF
     url: 'https://osf.io/fdywh/'
     
-abstract: '**Introduction:** Social distancing and sheltering-in-place mitigate the physical health risks of the novel coronavirus (COVID-19); however, there are concerns about the impact on mental health and social engagement. 
-
-**Methods:** We used data from a U.S.-based online survey (March 2020) to examine patterns of social support and prosocial behavior, explore differences between people with and without depression or anxiety, and explore correlates of social engagement in both groups, including symptom severity in the clinical group. **Results:** The clinical group reported greater social engagement. In both groups, social engagement was positively associated with COVID-19-related worry and trait moral elevation; mindfulness was positively associated with all outcomes for the clinical group only. Social interaction frequency had little influence on outcomes. Depressive symptom severity was positively associated with all outcomes, whereas anxiety was negatively associated with prosocial behavior. **Discussion:** These findings highlight how social engagement was experienced early in the U.S. COVID-19 crisis.'
+abstract: '**Introduction:** Social distancing and sheltering-in-place mitigate the physical health risks of the novel coronavirus (COVID-19); however, there are concerns about the impact on mental health and social engagement. **Methods:** We used data from a U.S.-based online survey (March 2020) to examine patterns of social support and prosocial behavior, explore differences between people with and without depression or anxiety, and explore correlates of social engagement in both groups, including symptom severity in the clinical group. **Results:** The clinical group reported greater social engagement. In both groups, social engagement was positively associated with COVID-19-related worry and trait moral elevation; mindfulness was positively associated with all outcomes for the clinical group only. Social interaction frequency had little influence on outcomes. Depressive symptom severity was positively associated with all outcomes, whereas anxiety was negatively associated with prosocial behavior. **Discussion:** These findings highlight how social engagement was experienced early in the U.S. COVID-19 crisis.'
 ---
 
