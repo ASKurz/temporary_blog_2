@@ -18,7 +18,7 @@ image:
   preview_only: false
 # `projects` can associate this post with one or more of your projects
 projects: []
-publication: *Journal of Social and Clinical Psychology*
+publication: '*Journal of Social and Clinical Psychology*'
 publication_short: ""
 publication_types:
 - "2"
