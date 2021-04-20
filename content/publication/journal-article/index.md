@@ -12,7 +12,6 @@ authors:
 # - Austen R. Anderson
 # - Binh An N. Howard
 # - Yvette Z. Szabo
-
 # - admin
 - Robert Ford
 date: '2020-12-01'
