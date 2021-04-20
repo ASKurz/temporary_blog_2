@@ -14,6 +14,7 @@ authors:
 
 date: '2020-04-01'
 doi: https://doi.org/10.1016/j.eatbeh.2020.101385
+
 featured: false
 # To use the `image` argument, add an image named `featured.jpg/png` to your page's folder.
 # focal_point: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
@@ -23,7 +24,8 @@ image:
   preview_only: false
 # `projects` can associate this post with one or more of your projects
 projects: []
-publication: '*Journal of Social and Clinical Psychology*'
+
+publication: '*Eating Behaviors*'
 publication_types:
 - 2
 publishDate: '2020-04-01'
