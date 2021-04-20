@@ -10,7 +10,7 @@ authors:
 - Adam P. McGuire
 - Robert Ford
 date: '2020-20-01'
-doi: ""
+doi: https://doi.org/10.1521/jscp.2020.39.10.923
 featured: false
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
@@ -21,7 +21,7 @@ publication: '*Journal of Source Themes, 1*(1)'
 publication_short: ""
 publication_types:
 - "2"
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: '2020-20-01'
 slides: example
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
   ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
