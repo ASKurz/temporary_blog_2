@@ -14,7 +14,7 @@ authors:
 # - Yvette Z. Szabo
 
 # - admin
-# - Robert Ford
+- Robert Ford
 date: '2020-12-01'
 doi: https://doi.org/10.1521/jscp.2020.39.10.923
 featured: false
