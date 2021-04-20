@@ -10,7 +10,7 @@ author_notes:
 - Equal contribution
 - Equal contribution
 authors:
-- McGuire, A. P.
+- Adam P. McGuire
 - Robert Ford
 date: "2015-09-01T00:00:00Z"
 doi: ""
