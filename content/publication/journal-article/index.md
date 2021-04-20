@@ -4,6 +4,7 @@ abstract: 'Introduction: Social distancing and sheltering-in-place mitigate the 
 author_notes:
 - Equal contribution
 - Equal contribution
+- Equal contribution
 authors:
 - admin
 - Adam P. McGuire
