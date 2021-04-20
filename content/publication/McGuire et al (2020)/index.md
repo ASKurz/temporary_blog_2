@@ -24,7 +24,7 @@ tags:
 title: 
 url_code: ""
 url_dataset: ""
-url_pdf: "McGuire et al (2020)/McGuire et al (2020) Social engagement early in the U.S. COVID-19 crisis.pdf"
+url_pdf: ""
 url_poster: ""
 url_project: ""
 url_slides: ""
