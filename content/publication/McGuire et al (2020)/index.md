@@ -8,7 +8,7 @@ authors:
 - Anderson, A. R.
 - Howard, B. A. N.
 - Szabo, Y. Z.
-date: "2020-12-01"
+date: "2020-12-01-01T00:00:00Z"
 doi: "https://doi.org/10.1521/jscp.2020.39.10.923"
 featured: false
 image:
@@ -32,12 +32,3 @@ url_source: ""
 url_video: ""
 ---
 
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
