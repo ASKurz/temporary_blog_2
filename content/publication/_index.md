@@ -1,3 +1,12 @@
+---
+cms_exclude: true
+header:
+  caption: ""
+  image: ""
+title: Publications
+view: 4
+---
+
 My academic publications are:
 
 ## 2020
@@ -54,13 +63,3 @@ My academic publications are:
 * Bowen, S. & **Kurz, A. S.** (2011). Smoking, nicotine dependence and motives to quit in Asian-American versus Caucasian college students. *Nicotine & Tobacco Research, 14*, 1235–1240. https://doi.org/10.1093/ntr/ntr281
   + [PDF](https://solomonkurz.netlify.app/files/Bowen & Kurz (2011) Smoking, nicotine dependence and motives to quit in Asian-American versus Caucasian college students.pdf)
 
-
-
-# ---
-# cms_exclude: true
-# header:
-#   caption: ""
-#   image: ""
-# title: Publications
-# view: 4
-# ---
