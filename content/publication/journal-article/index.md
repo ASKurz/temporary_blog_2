@@ -7,12 +7,13 @@ authors:
 - Adam P. McGuire
 - Candice Hayden
 - Sheila B. Frankfurt
-- admin
+- A. Solomon Kurz
 - Austen R. Anderson
 - Binh An N. Howard
 - Yvette Z. Szabo
 
 # - A. Solomon Kurz
+# - admin
 
 date: '2020-12-01'
 doi: https://doi.org/10.1521/jscp.2020.39.10.923
