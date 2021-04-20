@@ -1,3 +1,9 @@
+---
+
+url_pdf: "pdf/McGuire-et-al-(2020).pdf"
+
+---
+
 My academic publications are:
 
 
