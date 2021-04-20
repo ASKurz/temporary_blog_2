@@ -1,5 +1,9 @@
 My academic publications are:
 
+
+![](/media/boards.jpg)
+
+
 ## 2020
 
 * McGuire, A. P., Hayden, C., Frankfurt, S. B., **Kurz, A. S.**, Anderson, A. R., Howard, B. A. N. & Szabo, Y. Z. (2020). Social engagement early in the U.S. COVID-19 crisis: Exploring social support and prosocial behavior between those with and without depression or anxiety in an online sample. *Journal of Social and Clinical Psychology, 39(10)*, 923–953. https://guilfordjournals.com/doi/10.1521/jscp.2020.39.10.923
