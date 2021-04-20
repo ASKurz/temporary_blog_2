@@ -1,12 +1,3 @@
----
-cms_exclude: true
-header:
-  caption: ""
-  image: ""
-title: Publications
-view: 4
----
-
 My academic publications are:
 
 ## 2020
