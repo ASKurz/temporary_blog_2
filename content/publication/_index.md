@@ -4,6 +4,7 @@ My academic publications are:
 ![](/media/boards.jpg)
 
 [PDF](/publication/McGuire et al (2020) Social engagement early in the U.S. COVID-19 crisis.pdf)
+[PDF](https://solomonkurz-temp2.netlify.app/media/McGuire et al (2020) Social engagement early in the U.S. COVID-19 crisis.pdf)
 
 ## 2020
 
