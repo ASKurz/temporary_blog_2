@@ -9,7 +9,7 @@ authors:
 - admin
 - Adam P. McGuire
 - Robert Ford
-date: '2020-20-01'
+date: '2020-12-01'
 doi: https://doi.org/10.1521/jscp.2020.39.10.923
 featured: false
 image:
@@ -17,11 +17,11 @@ image:
   focal_point: ""
   preview_only: false
 projects: []
-publication: '*Journal of Source Themes, 1*(1)'
+publication: '*Journal of Social and Clinical Psychology, 39*(10), 923--953. [https://doi.org/10.1521/jscp.2020.39.10.923](https://doi.org/10.1521/jscp.2020.39.10.923)'
 publication_short: ""
 publication_types:
 - "2"
-publishDate: '2020-20-01'
+publishDate: '2020-12-01'
 slides: example
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
   ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
