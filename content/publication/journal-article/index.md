@@ -5,8 +5,15 @@ abstract: 'Introduction: Social distancing and sheltering-in-place mitigate the 
 
 authors:
 - Adam P. McGuire
-- admin
-- Robert Ford
+- Candice Hayden
+- Sheila B. Frankfurt
+- A. Solomon Kurz
+- Austen R. Anderson
+- Binh An N. Howard
+- Yvette Z. Szabo
+
+# - admin
+# - Robert Ford
 date: '2020-12-01'
 doi: https://doi.org/10.1521/jscp.2020.39.10.923
 featured: false
@@ -18,13 +25,14 @@ image:
   preview_only: false
 # `projects` can associate this post with one or more of your projects
 projects: []
-publication: '*Journal of Social and Clinical Psychology, 39*(10), 923--953. [https://doi.org/10.1521/jscp.2020.39.10.923](https://doi.org/10.1521/jscp.2020.39.10.923)'
+publication: *Journal of Social and Clinical Psychology*
 publication_short: ""
 publication_types:
 - "2"
 publishDate: '2020-12-01'
 # slides: example
 summary: ''
+# `tags` are like keywords
 tags:
 - COVID-19
 - social engagement
