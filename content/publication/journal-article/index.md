@@ -1,16 +1,10 @@
 ---
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
-  ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed
-  ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis
-  sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida
-  egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id
-  dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus.
-  Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Introduction: Social distancing and sheltering-in-place mitigate the physical health risks of the novel coronavirus (COVID-19); however, there are concerns about the impact on mental health and social engagement. Methods: We used data from a U.S.-based online survey (March 2020) to examine patterns of social support and prosocial behavior, explore differences between people with and without depression or anxiety, and explore correlates of social engage- ment in both groups, including symptom severity in the clinical group. Results: The clinical group reported greater social engagement. In both groups, social engagement was positively associated with COVID-19-related worry and trait moral elevation; mindfulness was positively associated with all outcomes for the clinical group only. Social interaction frequency had little influence on out- comes. Depressive symptom severity was positively associated with all out- comes, whereas anxiety was negatively associated with prosocial behavior. Discussion: These findings highlight how social engagement was experienced early in the U.S. COVID-19 crisis.
 author_notes:
 - Equal contribution
 - Equal contribution
 authors:
-- Adam P. McGuire
+- Adam McGuire
 - Robert Ford
 date: "2015-09-01T00:00:00Z"
 doi: ""
