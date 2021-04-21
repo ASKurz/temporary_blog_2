@@ -334,7 +334,7 @@ posts %&gt;%
              color = clean)) +
   geom_pointinterval() +
   scale_color_fivethirtyeight() +
-  coord_cartesian(xlim = c(-1, 0)) +
+  scale_x_continuous(breaks = -5:0 / 5, limits = -1:0, expand = expansion(mult = c(0, 0.05))) +
   labs(subtitle = expression(paste(&quot;The posterior for &quot;, rho, &quot; depends on the likelihood. Why not go robust and use Student&#39;s &quot;, italic(t), &quot;?&quot;))) +
   theme_fivethirtyeight() +
   theme(axis.text.y = element_text(hjust = 0),
