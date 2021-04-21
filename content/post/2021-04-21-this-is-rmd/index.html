@@ -1,0 +1,25 @@
+---
+title: This is Rmd
+author: A. Solomon Kurz
+date: '2021-04-21'
+slug: this-is-rmd
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-04-21T12:31:29-07:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+<script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
+
+
+<p>The basic version of a Bayesian meta-analysis follows the form</p>
+<p><span class="math display">\[y_i \sim \text{Normal}(\theta_i, \sigma_i)\]</span></p>
+<p>where <span class="math inline">\(y_i\)</span> = the point estimate for the effect size of a single study, <span class="math inline">\(i\)</span>, which is presumed to have been a draw from a Normal distribution centered on <span class="math inline">\(\theta_i\)</span>. The data in meta-analyses are typically statistical summaries from individual studies. The one clear lesson from this chapter is that those estimates themselves come with error and those errors should be fully expressed in the meta-analytic model. Which we do. The standard error from study <span class="math inline">\(i\)</span> is specified <span class="math inline">\(\sigma_i\)</span>, which is also a stand-in for the standard deviation of the Normal distribution from which the point estimate was drawn. Do note, we’re not estimating <span class="math inline">\(\sigma_i\)</span>, here. Those values we take directly from the original studies.</p>
