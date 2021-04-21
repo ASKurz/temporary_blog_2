@@ -131,19 +131,14 @@ x.clean %&gt;%
 <pre class="r"><code>f0 &lt;- 
   brm(data = x.clean, 
       family = gaussian,
-      mvbind(x, y) ~ 1,
-      prior = c(prior(normal(0, 100), class = Intercept),
+      bf(mvbind(x, y) ~ 1) + set_rescor(TRUE),
+      prior = c(prior(normal(0, 100), class = Intercept, resp = x),
+                prior(normal(0, 100), class = Intercept, resp = y),
                 prior(normal(0, 100), class = sigma, resp = x),
                 prior(normal(0, 100), class = sigma, resp = y),
                 prior(lkj(1), class = rescor)),
       iter = 2000, warmup = 500, chains = 4, cores = 4, 
       seed = 210191)</code></pre>
-<pre><code>## Warning: In the future, &#39;rescor&#39; will be set to FALSE by default for all models.
-## It is thus recommended to explicitely set &#39;rescor&#39; via &#39;set_rescor&#39; instead of
-## using the default.</code></pre>
-<pre><code>## Warning: Specifying global priors for regression coefficients in multivariate
-## models is deprecated. Please specify priors separately for each response
-## variable.</code></pre>
 <p>In a typical Bayesian workflow, you’d examine the quality of the chains with trace plots. The easy way to do that in brms is with <code>plot()</code>. E.g., to get the trace plots for our first model, you’d code <code>plot(f0)</code>. Happily, the trace plots look fine for all models in this post. For the sake of space, I’ll leave their inspection as exercises for interested readers.</p>
 <p>Our priors and such mirror those in Baez-Ortega’s blog. Here are the results.</p>
 <pre class="r"><code>print(f0)</code></pre>
@@ -226,20 +221,15 @@ x.clean %&gt;%
 <pre class="r"><code>f2 &lt;- 
   brm(data = x.noisy, 
       family = student,
-      mvbind(x, y) ~ 1,
+      bf(mvbind(x, y) ~ 1) + set_rescor(TRUE),
       prior = c(prior(gamma(2, .1), class = nu),
-                prior(normal(0, 100), class = Intercept),
+                prior(normal(0, 100), class = Intercept, resp = x),
+                prior(normal(0, 100), class = Intercept, resp = y),
                 prior(normal(0, 100), class = sigma, resp = x),
                 prior(normal(0, 100), class = sigma, resp = y),
                 prior(lkj(1), class = rescor)),
       iter = 2000, warmup = 500, chains = 4, cores = 4, 
       seed = 210191)</code></pre>
-<pre><code>## Warning: In the future, &#39;rescor&#39; will be set to FALSE by default for all models.
-## It is thus recommended to explicitely set &#39;rescor&#39; via &#39;set_rescor&#39; instead of
-## using the default.</code></pre>
-<pre><code>## Warning: Specifying global priors for regression coefficients in multivariate
-## models is deprecated. Please specify priors separately for each response
-## variable.</code></pre>
 <pre class="r"><code>print(f2)</code></pre>
 <pre><code>##  Family: MV(student, student) 
 ##   Links: mu = identity; sigma = identity; nu = identity
