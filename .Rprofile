@@ -27,7 +27,7 @@ options(
 # https://alison.rbind.io/post/new-year-new-blogdown/#step-4-create-content
 options(
   blogdown.author = "A. Solomon Kurz",
-  blogdown.ext = ".Rmarkdown",
+  blogdown.ext = ".Rmd",
   blogdown.subdir = "post",
   blogdown.yaml.empty = TRUE,
   blogdown.new_bundle = TRUE
