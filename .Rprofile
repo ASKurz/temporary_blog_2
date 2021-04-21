@@ -21,3 +21,14 @@ options(
   blogdown.hugo.version = "0.82.0"
 )
 
+# These changes are based on Alison Hill's posts:
+# https://alison.rbind.io/post/2019-02-21-hugo-page-bundles/#project-specific-rprofile
+# and 
+# https://alison.rbind.io/post/new-year-new-blogdown/#step-4-create-content
+options(
+  blogdown.author = "A. Solomon Kurz",
+  blogdown.ext = ".Rmarkdown",
+  blogdown.subdir = "post",
+  blogdown.yaml.empty = TRUE,
+  blogdown.new_bundle = TRUE
+)
