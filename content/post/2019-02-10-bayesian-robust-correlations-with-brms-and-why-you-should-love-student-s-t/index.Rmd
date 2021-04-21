@@ -284,7 +284,8 @@ posts %>%
          clean = ifelse(model %in% c("f0", "f3"), "0", "1")) %>%
   
   # plot
-  ggplot(aes(x = rescor__x__y, y = key, color = clean)) +
+  ggplot(aes(x = rescor__x__y, xmin = .lower, xmax = .upper, y = key, 
+             color = clean)) +
   geom_pointinterval() +
   scale_color_fivethirtyeight() +
   coord_cartesian(xlim = c(-1, 0)) +

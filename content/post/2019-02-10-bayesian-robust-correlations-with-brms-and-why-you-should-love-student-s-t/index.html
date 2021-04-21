@@ -330,7 +330,8 @@ posts %&gt;%
          clean = ifelse(model %in% c(&quot;f0&quot;, &quot;f3&quot;), &quot;0&quot;, &quot;1&quot;)) %&gt;%
   
   # plot
-  ggplot(aes(x = rescor__x__y, y = key, color = clean)) +
+  ggplot(aes(x = rescor__x__y, xmin = .lower, xmax = .upper, y = key, 
+             color = clean)) +
   geom_pointinterval() +
   scale_color_fivethirtyeight() +
   coord_cartesian(xlim = c(-1, 0)) +
