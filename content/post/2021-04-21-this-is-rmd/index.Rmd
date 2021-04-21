@@ -23,3 +23,4 @@ $$y_i \sim \text{Normal}(\theta_i, \sigma_i)$$
 
 where $y_i$ = the point estimate for the effect size of a single study, $i$, which is presumed to have been a draw from a Normal distribution centered on $\theta_i$. The data in meta-analyses are typically statistical summaries from individual studies. The one clear lesson from this chapter is that those estimates themselves come with error and those errors should be fully expressed in the meta-analytic model. Which we do. The standard error from study $i$ is specified $\sigma_i$, which is also a stand-in for the standard deviation of the Normal distribution from which the point estimate was drawn. Do note, we're not estimating $\sigma_i$, here. Those values we take directly from the original studies.
 
+
