@@ -24,6 +24,7 @@ projects: []
 <script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
 
 
+<p>[edited Apr 21, 2021]</p>
 <div id="tldr" class="section level2">
 <h2>tl;dr</h2>
 <p>There’s more than one way to fit a Bayesian correlation in brms.</p>
@@ -342,7 +343,7 @@ fitted(f4,
 ## and Tail_ESS are effective sample size measures, and Rhat is the potential
 ## scale reduction factor on split chains (at convergence, Rhat = 1).</code></pre>
 <p>If you wanna get silly, we can prune even further. Did you notice how the estimates for <span class="math inline">\(\sigma\)</span> are all hovering around 1? Since we have no predictors, <span class="math inline">\(\sigma\)</span> is just an estimate of the population standard deviation. And since we’re working with standardized data, the population standard deviation has to be 1. Any other estimate would be nonsensical. So why not fix it to 1?</p>
-<p>With brms, we can fix those <span class="math inline">\(\sigma\)</span>s to 1 with a trick of the nonlinear <a href="https://cran.r-project.org/web/packages/brms/vignettes/brms_distreg.html">distributional modeling syntax</a>. Recall when you model <span class="math inline">\(\sigma\)</span>, the brms default is to actually model its log. As is turns out, the log of 1 is zero.</p>
+<p>With brms, we can fix those <span class="math inline">\(\sigma\)</span>’s to 1 with a trick of the nonlinear <a href="https://cran.r-project.org/web/packages/brms/vignettes/brms_distreg.html">distributional modeling syntax</a>. Recall when you model <span class="math inline">\(\sigma\)</span>, the brms default is to actually model its log. As is turns out, the log of 1 is zero.</p>
 <pre class="r"><code>log(1)</code></pre>
 <pre><code>## [1] 0</code></pre>
 <p>Here’s how to make use of that within <code>brm()</code>.</p>

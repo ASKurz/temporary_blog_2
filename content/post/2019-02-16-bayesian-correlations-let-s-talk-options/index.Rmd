@@ -21,6 +21,8 @@ image:
 projects: []
 ---
 
+[edited Apr 21, 2021]
+
 ## tl;dr
 
 There's more than one way to fit a Bayesian correlation in brms.
@@ -300,7 +302,7 @@ print(f8)
 
 If you wanna get silly, we can prune even further. Did you notice how the estimates for $\sigma$ are all hovering around 1? Since we have no predictors, $\sigma$ is just an estimate of the population standard deviation. And since we're working with standardized data, the population standard deviation has to be 1. Any other estimate would be nonsensical. So why not fix it to 1?
 
-With brms, we can fix those $\sigma$s to 1 with a trick of the nonlinear [distributional modeling syntax](https://cran.r-project.org/web/packages/brms/vignettes/brms_distreg.html). Recall when you model $\sigma$, the brms default is to actually model its log. As is turns out, the log of 1 is zero.
+With brms, we can fix those $\sigma$'s to 1 with a trick of the nonlinear [distributional modeling syntax](https://cran.r-project.org/web/packages/brms/vignettes/brms_distreg.html). Recall when you model $\sigma$, the brms default is to actually model its log. As is turns out, the log of 1 is zero.
 
 ```{r}
 log(1)
