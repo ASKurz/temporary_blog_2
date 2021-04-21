@@ -46,7 +46,7 @@ Before we proceed, I should acknowledge that this section is heavily influenced 
 >
 > The first potential estimand of a meta-analysis, or a hierarchically structured problem in general, is the mean of the distribution of effect sizes, since this represents the overall 'average' effect across all studies that could be regarded as exchangeable with the observed studies. Other possible estimands are the effect size in any of the observed studies and the effect size in another, comparable (exchangeable) unobserved study. (pp. 125--126, *emphasis* in the original)
 
-The basic version of a Bayesian meta-analysis follows the form
+The basic version of a Bayesian meta-analysis follows the form 
 
 `$$y_i \sim \text{Normal}(\theta_i, \sigma_i)$$`
 
