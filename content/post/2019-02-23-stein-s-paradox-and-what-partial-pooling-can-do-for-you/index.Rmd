@@ -1,0 +1,23 @@
+---
+title: Stein's Paradox and What Partial Pooling Can Do For You
+author: A. Solomon Kurz
+date: '2019-02-23'
+slug: ''
+categories: []
+tags:
+  - Bayesian
+  - brms
+  - multilevel
+  - R
+  - tutorial
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-04-21T16:29:26-07:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
