@@ -159,10 +159,10 @@ Within our **brms** paradigm, the two level-2 variance parameters follow the for
 \begin{bmatrix} 
 \zeta_{0i} \\ \zeta_{1i} \\
 \end{bmatrix} & \sim \operatorname{Normal} 
-\Bigg ( 
+\left ( 
 \begin{bmatrix} 0 \\ 0 \end{bmatrix},
 \mathbf{D} \mathbf{\Omega} \mathbf{D}'
-\Bigg ), \text{where} \\
+\right ), \text{where} \\
 
 \mathbf{D}    & = \begin{bmatrix} \sigma_0 & 0 \\ 0 & \sigma_1 \end{bmatrix} \text{and} \\
 
@@ -252,10 +252,10 @@ which is meant to convey that $\overline{\text{unemp}}_i$ is allowed to explain 
 \begin{bmatrix} 
 \zeta_{0i} \\ \zeta_{1i} \\
 \end{bmatrix} & \sim \operatorname{Normal} 
-\Bigg ( 
+\left ( 
 \begin{bmatrix} 0 \\ 0 \end{bmatrix},
 \mathbf{D} \mathbf{\Omega} \mathbf{D}'
-\Bigg ), \text{where} \\
+\right ), \text{where} \\
 
 \mathbf{D}    & = \begin{bmatrix} \sigma_0 & 0 \\ 0 & \sigma_1 \end{bmatrix} \text{and} \\
 
