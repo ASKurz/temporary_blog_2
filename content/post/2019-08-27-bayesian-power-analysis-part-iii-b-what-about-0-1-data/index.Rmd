@@ -126,7 +126,7 @@ d %>%
   ggplot(aes(x = y)) +
   geom_bar()
 
-ggsave(file = "featured.png", width = 3, height = 2)
+ggsave(file = "featured.tiff", width = 3, height = 2, device = "tiff", dpi = 300)
 ```
 
 
