@@ -118,6 +118,20 @@ d %>%
   geom_bar()
 ```
 
+```{r, echo = F, eval = F}
+# this is to save the image
+d %>% 
+  mutate(y = factor(y)) %>% 
+  
+  ggplot(aes(x = y)) +
+  geom_bar()
+
+ggsave(file = "featured.png", width = 3, height = 2)
+```
+
+
+
+
 ### Time to model.
 
 To practice modeling those data, we'll want to fire up the [**brms** package](https://github.com/paul-buerkner/brms) [@R-brms; @burknerBrmsPackageBayesian2017; @burknerAdvancedBayesianMultilevel2018].
