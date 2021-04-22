@@ -9,9 +9,8 @@ tags:
   - brms
   - power
   - R
-  - tidyerse
+  - tidyverse
   - tutorial
-  - tidyerse
 subtitle: ''
 summary: ''
 authors: []
