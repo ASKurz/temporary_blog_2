@@ -128,12 +128,12 @@ Anyway, to help fill this knowledge gap, we might slip into pedagogical mode. If
 
 $$
   \begin{align*}
-y_{ti} & = \beta_{00} + \beta_{01} (\text{treatment})_i + \beta_{10} (\text{time})_{ti} + \color{darkred}{\beta_{11}} (\text{treatment})_i \times (\text{time})_{ti} \\
+y_{ti} & = \beta_{00} + \beta_{01} (\text{treatment})_i + \beta_{10} (\text{time})_{ti} + \color{darkred}{\beta_{11}} (\text{treatment})_i (\text{time})_{ti} \\
 & \;\;\; + [r_{0i} + r_{1i} (\text{time})_{ti} + e_{ti}],
 \end{align*}
 $$
-  
-  where variance in $y_{ti}$ is decomposed into the last three terms, $r_{0i}$, $r_{1i}$, and $e_{ti}$. Here we follow the usual assumption that within-participant variance is normally distributed, $e_{ti} \sim \operatorname N(0, \sigma_\epsilon^2)$, and the $r_{\text{x}i}$ values follow a bivariate normal distribution, 
+
+where variance in $y_{ti}$ is decomposed into the last three terms, $r_{0i}$, $r_{1i}$, and $e_{ti}$. Here we follow the usual assumption that within-participant variance is normally distributed, $e_{ti} \sim \operatorname N(0, \sigma_\epsilon^2)$, and the $r_{\text{x}i}$ values follow a bivariate normal distribution, 
 
 $$
   \begin{bmatrix} r_{0i} \\ r_{1i} \end{bmatrix} \sim \operatorname N \left (\begin{bmatrix} 0 \\ 0 \end{bmatrix}, \begin{bmatrix} \tau_{00} & \tau_{01} \\ \tau_{01} & \tau_{11} \end{bmatrix} \right),
