@@ -217,7 +217,7 @@ fixef(fit)
 
 ### You can reuse a fit.
 
-Especially with simple models like this, a lot of the time we spend waiting for `brms::brm()` to return the model is wrapped up in compilation. This is because **brms** is a collection of user-friendly functions designed to fit models with [**Stan**](https://mc-stan.org) [@standevelopmentteamRStanInterfaceStan2020; @standevelopmentteamStanReferenceManual2020; @standevelopmentteamStanUserGuide2020]. With each new model, `brm()` translates your model into **Stan** code, which then gets translated to C++ and is compiled afterwards (see [here](https://cran.r-project.org/package=brms/vignettes/brms_overview.pdf) or [here](https://cran.r-project.org/package=brms/brms.pdf)). However, we can use the `update()` function to update a previously-compiled fit object with new data. This cuts out the compilation time and allows us to get directly to sampling. Here's how to do it.
+Especially with simple models like this, a lot of the time we spend waiting for `brms::brm()` to return the model is wrapped up in compilation. This is because **brms** is a collection of user-friendly functions designed to fit models with [**Stan**](https://mc-stan.org) [@standevelopmentteamRStanInterfaceStan2020; @standevelopmentteamStanReferenceManual2021; @standevelopmentteamStanUserGuide2021]. With each new model, `brm()` translates your model into **Stan** code, which then gets translated to C++ and is compiled afterwards (see [here](https://cran.r-project.org/package=brms/vignettes/brms_overview.pdf) or [here](https://cran.r-project.org/package=brms/brms.pdf)). However, we can use the `update()` function to update a previously-compiled fit object with new data. This cuts out the compilation time and allows us to get directly to sampling. Here's how to do it.
 
 ```{r updated_fit, cache = T, warning = F, message = F, results = "hide"}
 # set a new seed
@@ -313,7 +313,7 @@ s <-
 t2 <- Sys.time()
 ```
 
-The entire simulation took just over a minute on my [new laptop](https://twitter.com/SolomonKurz/status/1250193047096299520).
+The entire simulation took just about a minute on my [new laptop](https://twitter.com/SolomonKurz/status/1250193047096299520).
 
 ```{r}
 t2 - t1

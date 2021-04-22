@@ -196,7 +196,7 @@ glimpse(d)</code></pre>
 </div>
 <div id="you-can-reuse-a-fit." class="section level3">
 <h3>You can reuse a fit.</h3>
-<p>Especially with simple models like this, a lot of the time we spend waiting for <code>brms::brm()</code> to return the model is wrapped up in compilation. This is because <strong>brms</strong> is a collection of user-friendly functions designed to fit models with <a href="https://mc-stan.org"><strong>Stan</strong></a> <span class="citation">(<a href="#ref-standevelopmentteamRStanInterfaceStan2020" role="doc-biblioref">Stan Development Team, 2020</a>; <a href="#ref-standevelopmentteamStanReferenceManual2020" role="doc-biblioref"><strong>standevelopmentteamStanReferenceManual2020?</strong></a>; <a href="#ref-standevelopmentteamStanUserGuide2020" role="doc-biblioref"><strong>standevelopmentteamStanUserGuide2020?</strong></a>)</span>. With each new model, <code>brm()</code> translates your model into <strong>Stan</strong> code, which then gets translated to C++ and is compiled afterwards (see <a href="https://cran.r-project.org/package=brms/vignettes/brms_overview.pdf">here</a> or <a href="https://cran.r-project.org/package=brms/brms.pdf">here</a>). However, we can use the <code>update()</code> function to update a previously-compiled fit object with new data. This cuts out the compilation time and allows us to get directly to sampling. Here’s how to do it.</p>
+<p>Especially with simple models like this, a lot of the time we spend waiting for <code>brms::brm()</code> to return the model is wrapped up in compilation. This is because <strong>brms</strong> is a collection of user-friendly functions designed to fit models with <a href="https://mc-stan.org"><strong>Stan</strong></a> <span class="citation">(<a href="#ref-standevelopmentteamRStanInterfaceStan2020" role="doc-biblioref">Stan Development Team, 2020</a>, <a href="#ref-standevelopmentteamStanReferenceManual2021" role="doc-biblioref">2021a</a>, <a href="#ref-standevelopmentteamStanUserGuide2021" role="doc-biblioref">2021b</a>)</span>. With each new model, <code>brm()</code> translates your model into <strong>Stan</strong> code, which then gets translated to C++ and is compiled afterwards (see <a href="https://cran.r-project.org/package=brms/vignettes/brms_overview.pdf">here</a> or <a href="https://cran.r-project.org/package=brms/brms.pdf">here</a>). However, we can use the <code>update()</code> function to update a previously-compiled fit object with new data. This cuts out the compilation time and allows us to get directly to sampling. Here’s how to do it.</p>
 <pre class="r"><code># set a new seed
 set.seed(2)
 
@@ -277,7 +277,7 @@ s &lt;-
   mutate(fit = map2(d, seed, ~update(fit, newdata = .x, seed = .y)))
 
 t2 &lt;- Sys.time()</code></pre>
-<p>The entire simulation took just over a minute on my <a href="https://twitter.com/SolomonKurz/status/1250193047096299520">new laptop</a>.</p>
+<p>The entire simulation took just about a minute on my <a href="https://twitter.com/SolomonKurz/status/1250193047096299520">new laptop</a>.</p>
 <pre class="r"><code>t2 - t1</code></pre>
 <pre><code>## Time difference of 44.20048 secs</code></pre>
 <p>Your mileage may vary.</p>
@@ -636,6 +636,12 @@ R Core Team. (2020). <em>R: <span>A</span> language and environment for statisti
 </div>
 <div id="ref-standevelopmentteamRStanInterfaceStan2020" class="csl-entry">
 Stan Development Team. (2020). <em><span>RStan</span>: The <span>R</span> interface to <span>Stan</span></em>. <a href="https://cran.r-project.org/web/packages/rstan/vignettes/rstan.html">https://cran.r-project.org/web/packages/rstan/vignettes/rstan.html</a>
+</div>
+<div id="ref-standevelopmentteamStanReferenceManual2021" class="csl-entry">
+Stan Development Team. (2021a). <em>Stan reference manual, <span>Version</span> 2.26</em>. <a href="https://mc-stan.org/docs/2_26/reference-manual/">https://mc-stan.org/docs/2_26/reference-manual/</a>
+</div>
+<div id="ref-standevelopmentteamStanUserGuide2021" class="csl-entry">
+Stan Development Team. (2021b). <em>Stan user’s guide, <span>Version</span> 2.26</em>. <a href="https://mc-stan.org/docs/2_26/stan-users-guide/index.html">https://mc-stan.org/docs/2_26/stan-users-guide/index.html</a>
 </div>
 <div id="ref-R-tidyverse" class="csl-entry">
 Wickham, H. (2019). <em><span class="nocase">tidyverse</span>: <span>Easily</span> install and load the ’tidyverse’</em>. <a href="https://CRAN.R-project.org/package=tidyverse">https://CRAN.R-project.org/package=tidyverse</a>
