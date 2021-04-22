@@ -529,6 +529,9 @@ model_weights(fit1, fit2, weights = &quot;loo&quot;)</code></pre>
 <div id="references" class="section level2 unnumbered">
 <h2>References</h2>
 <div id="refs" class="references csl-bib-body hanging-indent" line-spacing="2">
+<div id="ref-Bürkner2021Parameterization" class="csl-entry">
+Bürkner, P.-C. (2021). <em>Parameterization of response distributions in brms</em>. <a href="https://CRAN.R-project.org/package=brms/vignettes/brms_families.html">https://CRAN.R-project.org/package=brms/vignettes/brms_families.html</a>
+</div>
 <div id="ref-burknerBrmsPackageBayesian2017" class="csl-entry">
 Bürkner, P.-C. (2017). <span class="nocase">brms</span>: <span>An R</span> package for <span>Bayesian</span> multilevel models using <span>Stan</span>. <em>Journal of Statistical Software</em>, <em>80</em>(1), 1–28. <a href="https://doi.org/10.18637/jss.v080.i01">https://doi.org/10.18637/jss.v080.i01</a>
 </div>
@@ -542,7 +545,7 @@ Bürkner, P.-C. (2020). <em><span class="nocase">brms</span>: <span>Bayesian</sp
 Gelman, A., Hill, J., &amp; Vehtari, A. (2020). <em>Regression and other stories</em>. <span>Cambridge University Press</span>. <a href="https://doi.org/10.1017/9781139161879">https://doi.org/10.1017/9781139161879</a>
 </div>
 <div id="ref-R-tidybayes" class="csl-entry">
-Kay, M. (2020). <em><span class="nocase">tidybayes</span>: <span>Tidy</span> data and ’geoms’ for <span>Bayesian</span> models</em>. <a href="http://mjskay.github.io/tidybayes">http://mjskay.github.io/tidybayes</a>
+Kay, M. (2020). <em><span class="nocase">tidybayes</span>: <span>Tidy</span> data and ’geoms’ for <span>Bayesian</span> models</em>. <a href="https://mjskay.github.io/tidybayes/">https://mjskay.github.io/tidybayes/</a>
 </div>
 <div id="ref-kruschkeDoingBayesianData2015" class="csl-entry">
 Kruschke, J. K. (2015). <em>Doing <span>Bayesian</span> data analysis: <span>A</span> tutorial with <span>R</span>, <span>JAGS</span>, and <span>Stan</span></em>. <span>Academic Press</span>. <a href="https://sites.google.com/site/doingbayesiandataanalysis/">https://sites.google.com/site/doingbayesiandataanalysis/</a>
@@ -573,7 +576,7 @@ Wickham, H., Averick, M., Bryan, J., Chang, W., McGowan, L. D., François, R., G
 <div class="footnotes">
 <hr />
 <ol>
-<li id="fn1"><p>Given the data are coded 0/1, one could also use the Bernoulli likelihood <span class="citation">(<a href="#ref-Bürkner2021Parameterization" role="doc-biblioref"><strong>Bürkner2021Parameterization?</strong></a>, <a href="https://CRAN.R-project.org/package=brms/vignettes/brms_families.html#binary-and-count-data-models" role="doc-biblioref"><em>Binary and count data models</em></a>)</span>. I’m just partial to the binomial.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn1"><p>Given the data are coded 0/1, one could also use the Bernoulli likelihood <span class="citation">(<a href="#ref-Bürkner2021Parameterization" role="doc-biblioref">Bürkner, 2021</a>, <a href="https://CRAN.R-project.org/package=brms/vignettes/brms_families.html#binary-and-count-data-models" role="doc-biblioref"><em>Binary and count data models</em></a>)</span>. I’m just partial to the binomial.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
 <li id="fn2"><p>This is the typical parameterization for multilevel models fit with <strong>brms</strong>. Though he used different notation, Bürkner spelled this all out in his <span class="citation">(<a href="#ref-burknerBrmsPackageBayesian2017" role="doc-biblioref">2017</a>)</span> overview paper, <a href="https://CRAN.R-project.org/package=brms/vignettes/brms_overview.pdf"><em>brms: An R package for Bayesian multilevel models using Stan</em></a>.<a href="#fnref2" class="footnote-back">↩︎</a></p></li>
 <li id="fn3"><p>The careful reader might notice that the models Kruschke focused on in Chapter 20 were all based on the Gaussian likelihood. So in the most technical sense, the model in Figure 20.2 is not a perfect match to our <code>fit2</code>. I’m hoping my readers might look past those details to see the more general point. For more practice, <a href="https://bookdown.org/content/3686/count-predicted-variable.html#example-hair-eye-go-again">Section 24.2</a> and <a href="https://bookdown.org/content/3686/count-predicted-variable.html#example-interaction-contrasts-shrinkage-and-omnibus-test">Section 24.3</a> of my translation of Kruschke’s text <span class="citation">(<a href="#ref-kurzDoingBayesianData2020" role="doc-biblioref">Kurz, 2020a</a>)</span> show variants of this model type using the Poisson likelihood. In Section <a href="https://bookdown.org/content/3686/count-predicted-variable.html#log-linear-models-for-contingency-tables-bonus-alternative-parameterization">24.4</a> you can even find a variant using the aggregated binomial likelihood.<a href="#fnref3" class="footnote-back">↩︎</a></p></li>
 </ol>
