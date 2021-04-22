@@ -155,7 +155,7 @@ posterior_samples(fit1) %&gt;%
   geom_density(fill = &quot;grey25&quot;, size = 0) +
   scale_x_continuous(&quot;probability of a hit&quot;, limits = c(0, 1)) +
   scale_y_continuous(NULL, breaks = NULL)</code></pre>
-<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-12-1.png" width="384" /></p>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-11-1.png" width="384" /></p>
 <p>Looks like the null hypothesis of <span class="math inline">\(p = .5\)</span> is not credible for this simulation. If we’d like the posterior median and percentile-based 95% intervals, we might use the <code>median_qi()</code> function from the handy <a href="https://mjskay.github.io/tidybayes/"><strong>tidybayes</strong> package</a> <span class="citation">(<a href="#ref-R-tidybayes" role="doc-biblioref">Kay, 2020</a>)</span>.</p>
 <pre class="r"><code>library(tidybayes)
 
@@ -201,7 +201,7 @@ posterior_samples(fit1) %&gt;%
   geom_linerange() +
   xlab(&quot;seed (i.e., simulation index)&quot;) +
   scale_y_continuous(&quot;probability of hitting the ball&quot;, limits = c(0, 1))</code></pre>
-<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-15-1.png" width="768" /></p>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-14-1.png" width="768" /></p>
 <p>Like one of my old coworkers used to say: <em>Purtier ’n a hog!</em> Here we’ll summarize the results both in terms of their conventional power, their mean width, and the proportion of widths more narrow than .25. <em>Why .25?</em> I don’t know. Without a substantively-informed alternative, it’s as good a criterion as any.</p>
 <pre class="r"><code>sim1 %&gt;% 
   mutate(width = .upper - .lower) %&gt;% 
@@ -277,7 +277,7 @@ d</code></pre>
   stat_halfeye(.width = c(.5, .95)) +
   scale_x_continuous(&quot;probability of a hit&quot;, limits = c(0, 1)) +
   scale_y_continuous(NULL, breaks = NULL)</code></pre>
-<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-20-1.png" width="384" /></p>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-19-1.png" width="384" /></p>
 <p>Based on a single simulation, it looks like <span class="math inline">\(n = 100\)</span> won’t quite be enough to reject <span class="math inline">\(H_0 \text{: } p = .25\)</span> with a conventional 2-sided 95% interval. But it does look like we’re in the ballpark and that our basic data + model setup will work for a larger-scale simulation. Here’s an example of how you might update our custom simulation function.</p>
 <pre class="r"><code>sim_data_fit &lt;- function(seed, n_trials) {
   
@@ -312,7 +312,7 @@ d</code></pre>
   xlab(&quot;seed (i.e., simulation index)&quot;) +
   scale_y_continuous(&quot;probability of hitting the ball&quot;,
                      limits = c(0, 1), breaks = c(0, .25, .35, 1))</code></pre>
-<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-22-1.png" width="768" /></p>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-21-1.png" width="768" /></p>
 <p>Overall, those intervals look pretty good. They’re fairly narrow and are hovering around the data generating <span class="math inline">\(p = .35\)</span>. But many are still crossing the .25 threshold. Let’s see the results of a formal summary.</p>
 <pre class="r"><code>sim2 %&gt;% 
   mutate(width = .upper - .lower) %&gt;% 
