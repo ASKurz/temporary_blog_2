@@ -2,7 +2,7 @@
 # Display name
 name: A. Solomon Kurz
 
-bio: I am a clinical psychology researcher.
+bio:
 
 education:
   courses:
